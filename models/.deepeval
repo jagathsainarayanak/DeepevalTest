@@ -1,0 +1,1 @@
+{"AZURE_OPENAI_API_KEY": "899ed382e11e44fab9e8fc13310075f9", "AZURE_OPENAI_ENDPOINT": "https://atg-canada-east.openai.azure.com/", "OPENAI_API_VERSION": "2023-07-01-preview", "AZURE_DEPLOYMENT_NAME": "gpt-4-32k", "USE_AZURE_OPENAI": "YES"}
