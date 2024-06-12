@@ -2,11 +2,13 @@ from deepeval.metrics import GEval, AnswerRelevancyMetric
 from deepeval.test_case import LLMTestCaseParams, LLMTestCase
 from deepeval import evaluate
 import pandas as pd 
+import shutil
 
 from utilities.Read_config import Config_read
 from utilities.data_loader import load_data
 from utilities.prompts import Prompts
 from models.Nowllm import NowLLM
+import os 
 
 
 def test_case_summarization():
@@ -62,3 +64,8 @@ def test_case_summarization():
         case_results.append(case_result)
     df = pd.DataFrame(case_results)
     df.to_excel("output/case_results.xlsx")
+    for dirpath, dirnames, _ in os.walk("."):
+        pycache_dirs = [d for d in dirnames if d == '__pycache__']
+        for pycache_dir in pycache_dirs:
+            pycache_path = os.path.join(dirpath, pycache_dir)
+            shutil.rmtree(pycache_path)
