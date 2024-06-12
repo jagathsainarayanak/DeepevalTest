@@ -1,9 +1,8 @@
 from deepeval.test_case import LLMTestCase
 from deepeval import evaluate
-import pandas as pd 
 
 from utilities.Read_config import Config_read
-from utilities.data_loader import load_data
+from utilities.data_loader import load_case_summarization_data
 from utilities.prompts import Prompts
 from utilities.metrics import faithfulness_metric, relavance_metric, coherance_metric
 from utilities.cleanup import cleanup_pycache
@@ -18,7 +17,7 @@ def test_case_summarization():
     user_prompt = Prompts.CASE_SUMMARIZATION_USER_PROMPT
 
     # loading the case summarization data
-    data = load_data(file_path="data/servicenow_data/latest_case_data.json",
+    data = load_case_summarization_data(file_path="data/servicenow_data/latest_case_data.json",
                      system_prompt=system_prompt,
                      user_prompt=user_prompt)
     

@@ -10,3 +10,5 @@ class Prompts():
 
         {"Issue": <issue>,"Key Actions Taken":<[value1,value2,value3...]>,"Resolution":<resolution>}"""
     
+    CHAT_SUMMARIZATION_SYSTEM_PROMPT = "Assume the role of a description writer who is an expert in writing a very short description for the CHAT TRANSCRIPT provided."
+    CHAT_SUMMARIZATION_USER_PROMPT = "In a clear and concise language, provide a meaningful short description that describes the issue or the request which is contained in the CHAT TRANSCRIPT provided. Return the response keeping it very short exceeding not more than 6 words and do not add any double quotation marks in the beginning and at the end of the response."
