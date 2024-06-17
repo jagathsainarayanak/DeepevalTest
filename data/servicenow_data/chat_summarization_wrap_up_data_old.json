@@ -1,0 +1,302 @@
+[
+    {
+        "ID": 0,
+        "case_details": "[10:13] virtual.agent: Hello, how can I help you today?\n\n[10:13] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[10:13] virtual.agent: Show me everything\n[10:13] Jannat, Barr: Chat with IT Live Agent\n[10:13] virtual.agent: Please stand by while I connect you to a live agent.\n[10:13] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The requestor, Jannat Barr, initiated a chat with the virtual agent seeking to connect with a live IT agent. The virtual agent acknowledged the request and proceeded to facilitate the connection to a live IT agent."
+    },
+    {
+        "ID": 1,
+        "case_details": "[08:41] virtual.agent: Hello, how can I help you today?\n\n[08:41] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[08:41] virtual.agent: Show me everything\n[08:41] Gilbert, Sam: outlook\n[08:41] virtual.agent: I am sorry but I didn't understand your request.\n[08:41] virtual.agent: Please try giving me your request in a different way. I'm currently better at understanding short sentences.\n[08:41] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[08:41] virtual.agent: Show me everything\n[08:41] Gilbert, Sam: Chat with Live Agent\n[08:41] virtual.agent: Please stand by while I connect you to a live agent.\n[08:42] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows that the requestor, Sam Gilbert, had an issue related to 'Outlook' but the virtual agent was unable to understand the request. Sam then requested to chat with a live agent, to which the virtual agent responded by initiating the process to connect him with a live agent."
+    },
+    {
+        "ID": 2,
+        "case_details": "\n[09:16] virtual.agent: Hello, how may I help you today?\n\n[09:16] virtual.agent: Start typing a question or topic below to use our Virtual Agent. Click on \"Show me everything\" to select from our HR and IT Topics and more.\n[09:16] virtual.agent: Show me everything\n[09:16] virtual.agent: Please stand by while I connect you to a live agent.\n[09:16] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows an interaction between a user and a virtual agent. The user did not specify any particular issue or request. The virtual agent offered assistance and suggested the user to type a question or select a topic from the available HR and IT topics. The virtual agent then proceeded to connect the user to a live agent for further assistance."
+    },
+    {
+        "ID": 3,
+        "case_details": "[08:55] virtual.agent: Hello, how can I help you today?\n\n[08:55] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[08:55] virtual.agent: Show me everything\n[08:55] Konte, David: I am looking for installing the kpi package to support Jogin9 data entry\n[08:55] virtual.agent: I want to be sure I got this right. What item best describes what you want to do?\n[08:56] Konte, David: Chat with Live Agent\n[08:56] virtual.agent: Please stand by while I connect you to a live agent.\n[08:56] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "David Konte reached out to the virtual agent seeking assistance with installing the KPI package to support Jogin9 data entry. The virtual agent, after confirming the request, proceeded to connect David with a live agent for further assistance."
+    },
+    {
+        "ID": 4,
+        "case_details": "\n\n[09:32] virtual.agent: Hello, how can I help you today?\n\n[09:32] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[09:32] virtual.agent: Show me everything\n[09:33] Mark, Geine: I am unable to logout of my profile in the stores ipad?\n[09:33] virtual.agent: I am sorry but I didn't understand your request.\n[09:33] virtual.agent: Please try giving me your request in a different way. I'm currently better at understanding short sentences.\n[09:33] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[09:33] virtual.agent: Show me everything\n[09:33] Mark, Geine: Chat with Live Agent\n[09:33] virtual.agent: Please stand by while I connect you to a live agent.\n[09:34] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "Mark Geine contacted the virtual agent because he was unable to logout of his profile on the store's iPad. The virtual agent, unable to understand the request, advised Mark to rephrase his query. Mark then requested to chat with a live agent, to which the virtual agent complied and initiated the connection."
+    },
+    {
+        "ID": 5,
+        "case_details": "[16:22] virtual.agent: Hello, how can I help you today?\n\n[16:22] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[16:22] virtual.agent: Show me everything\n[16:22] Hungay, Lisae: Chat with Live Agent\n[16:22] virtual.agent: Please stand by while I connect you to a live agent.\n[16:22] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The requestor, Lisae Hungay, initiated a chat with the virtual agent seeking to connect with a live agent. The virtual agent acknowledged the request and proceeded to facilitate the connection to a live agent."
+    },
+    {
+        "ID": 6,
+        "case_details": "[11:38] virtual.agent: Hello, how can I help you today?\n\n[11:38] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[11:38] virtual.agent: Show me everything\n[11:39] Lilian, Best: Quero saber o que falta para libera\u00e7\u00e3o aos meus acessos requisitados \n[11:39] virtual.agent: I am sorry but I didn't understand your request.\n[11:39] virtual.agent: Please try giving me your request in a different way. I'm currently better at understanding short sentences.\n[11:39] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[11:39] virtual.agent: Show me everything\n[11:40] Lilian, Best: Chat with Live Agent\n[11:40] virtual.agent: Please stand by while I connect you to a live agent.\n[11:40] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The requestor, Lilian Best, initially had difficulty communicating her request to the virtual agent due to language barriers. After some attempts, she requested to chat with a live agent. The virtual agent then proceeded to connect her to a live agent for further assistance."
+    },
+    {
+        "ID": 7,
+        "case_details": "[12:57] virtual.agent: Hello, how can I help you today?\n\n[12:57] virtual.agent: Start typing a question or topic below to use our Virtual Agent. Click on \"Show me everything\" to select from our HR and IT Topics and more.\n[12:57] virtual.agent: Show me everything\n[13:01] Cole, Alexa - Consultant: Chat with IT Live Agent\n[13:01] virtual.agent: Please stand by while I connect you to a live agent.\n[13:01] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The requestor, Alexa Cole, initiated a chat with the virtual agent seeking to connect with a live IT agent. The virtual agent acknowledged the request and proceeded to connect Alexa with a live IT agent."
+    },
+    {
+        "ID": 8,
+        "case_details": "[14:25] virtual.agent: Hello, how can I help you today?\n\n[14:25] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[14:25] virtual.agent: Show me everything\n[14:25] Omna Helan Craft Polimo: Chat with Live Agent\n[14:25] virtual.agent: Please stand by while I connect you to a live agent.\n[14:26] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The requestor, Omna Helan Craft Polimo, initiated a chat with the virtual agent seeking to connect with a live agent. The virtual agent acknowledged the request and proceeded to connect the requestor to a live agent."
+    },
+    {
+        "ID": 9,
+        "case_details": "[10:31] virtual.agent: Hello, how can I help you today?\n\n[10:31] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[10:31] virtual.agent: Show me everything\n[10:32] Hense, Charles - contractor: Chat with Live Agent\n[10:32] virtual.agent: Please stand by while I connect you to a live agent.\n[10:38] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The requestor, Charles Hense, initiated a chat with the virtual agent seeking to connect with a live agent. The virtual agent acknowledged the request and proceeded to connect Charles to a live agent."
+    },
+    {
+        "ID": 10,
+        "case_details": "\n\n[11:58] virtual.agent: Hello, how can I help you today?\n\n[11:58] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[11:58] virtual.agent: Show me everything\n[11:58] Karan Felix Sean Valencia: Chat with Live Agent\n[11:58] virtual.agent: Please stand by while I connect you to a live agent.\n[11:58] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The requestor, Karan Felix Sean Valencia, initiated a chat with the virtual agent seeking to connect with a live agent. The virtual agent acknowledged the request and proceeded to connect Karan with a live agent."
+    },
+    {
+        "ID": 11,
+        "case_details": "[10:19] virtual.agent: Hello, how can I help you today?\n\n[10:19] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[10:19] virtual.agent: Show me everything\n[10:19] virtual.agent: Please stand by while I connect you to a live agent.\n[10:19] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The requestor initiated a chat with the virtual agent, seeking assistance. The virtual agent offered to answer any questions or topics the requestor had. However, the requestor chose to be connected to a live agent instead. The virtual agent then proceeded to connect the requestor to a live agent for further assistance."
+    },
+    {
+        "ID": 12,
+        "case_details": "\n\n[12:48] virtual.agent: Hello, how can I help you today?\n\n[12:48] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[12:48] virtual.agent: Show me everything\n[12:48] Motee, Emma: Chat with Live Agent\n[12:48] virtual.agent: Please stand by while I connect you to a live agent.\n[12:48] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": " "
+    },
+    {
+        "ID": 13,
+        "case_details": "[07:37] virtual.agent: Hello, how can I help you today?\n\n[07:37] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[07:37] virtual.agent: Show me everything\n[07:37] Wolf, Paige: I am unable to see my O drive\n[07:37] virtual.agent: Here is some helpful information I found for you\n[07:37] virtual.agent: @L[https://acam.service-now.com/sys_attachment.do?sys_id=j67ds1721bde2814cad78559cc4bcbd1|https://acam.service-now.com/sys_attachment.do?sys_id=j67ds1721bde2814cad78559cc4bcbd1]\nsys_attachment\n[07:37] virtual.agent: Did this information help?\n[07:38] Wolf, Paige: No\n[07:38] virtual.agent: I am sorry but I didn't understand your request.\n[07:38] virtual.agent: Please try giving me your request in a different way. I'm currently better at understanding short sentences.\n[07:38] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[07:38] virtual.agent: Show me everything\n[07:38] virtual.agent: Please stand by while I connect you to a live agent.\n[07:38] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The requestor, Paige Wolf, reported an issue of being unable to access her O drive. The virtual agent provided a link with potentially helpful information, but it did not resolve Paige's issue. The virtual agent then failed to understand Paige's request and decided to connect her to a live agent for further assistance."
+    },
+    {
+        "ID": 14,
+        "case_details": "\n[11:36] virtual.agent: Hello, how can I help you today?\n\n[11:36] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[11:36] virtual.agent: Show me everything\n[11:36] Judith Phil Viiam: Chat with Live Agent\n[11:36] virtual.agent: Please stand by while I connect you to a live agent.\n[11:36] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows a user, Judith Phil Viiam, requesting to chat with a live agent. The virtual agent acknowledges the request and proceeds to connect Judith to a live agent."
+    },
+    {
+        "ID": 15,
+        "case_details": "[09:13] virtual.agent: Hello, how can I help you today?\n[09:13] virtual.agent: What's your issue or request? Or take a look at what I can help with.\n[09:13] virtual.agent: See all topics\n[09:13] Giovanni Nico Romeo: hI\n[09:13] virtual.agent: I am sorry but I didn't understand your request.\n[09:13] virtual.agent: Please try entering your request in a different way. I'm currently better at understanding short sentences.\n[09:13] virtual.agent: What's your issue or request? Or take a look at what I can help with.\n[09:13] virtual.agent: See all topics\n[09:13] Giovanni Nico Romeo: I want to search a ticket \n[09:13] virtual.agent: I am sorry but I didn't understand your request.\n[09:13] virtual.agent: Please try entering your request in a different way. I'm currently better at understanding short sentences.\n[09:13] virtual.agent: What's your issue or request? Or take a look at what I can help with.\n[09:13] virtual.agent: See all topics\n[09:13] Giovanni Nico Romeo: REQ0040580\n[09:13] virtual.agent: I am sorry but I didn't understand your request.\n[09:13] virtual.agent: Please try entering your request in a different way. I'm currently better at understanding short sentences.\n[09:13] virtual.agent: What's your issue or request? Or take a look at what I can help with.\n[09:13] virtual.agent: See all topics\n[09:14] Giovanni Nico Romeo: I would like to see the status of my ticket, but I don't know why its not showing anything\n[09:14] virtual.agent: I am sorry but I didn't understand your request.\n[09:14] virtual.agent: Please try entering your request in a different way. I'm currently better at understanding short sentences.\n[09:14] virtual.agent: What's your issue or request? Or take a look at what I can help with.\n[09:14] virtual.agent: See all topics\n[09:14] Giovanni Nico Romeo: no joda\n[09:14] virtual.agent: I am sorry but I didn't understand your request.\n[09:14] virtual.agent: Please try entering your request in a different way. I'm currently better at understanding short sentences.\n[09:14] virtual.agent: What's your issue or request? Or take a look at what I can help with.\n[09:14] virtual.agent: See all topics\n[09:14] virtual.agent: Please stand by while I connect you to a live agent.\n[09:15] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The requestor, Giovanni Nico Romeo, was trying to check the status of his ticket (REQ0040580) but was unable to do so. The virtual agent was unable to understand and assist with the request, despite multiple attempts by the requestor to clarify. The chat ended with the virtual agent attempting to connect the requestor to a live agent for further assistance."
+    },
+    {
+        "ID": 16,
+        "case_details": "\n\n[12:34] virtual.agent: Hello, how can I help you today?\n\n[12:34] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[12:34] virtual.agent: Show me everything\n[12:34] virtual.agent: Please stand by while I connect you to a live agent.\n[12:34] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript begins with the virtual agent greeting the user and offering assistance. The virtual agent then prompts the user to type a question or topic, or to select \"Show me everything\" for a live agent chat. The user selects the latter, and the virtual agent proceeds to connect the user to a live agent."
+    },
+    {
+        "ID": 17,
+        "case_details": "[13:34] virtual.agent: Hello, how can I help you today?\n\n[13:34] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[13:34] virtual.agent: Show me everything\n[13:34] Joshi, Gagan: Chat with Live Agent\n[13:34] virtual.agent: Please stand by while I connect you to a live agent.\n[13:34] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript reveals that the requestor, Gagan Joshi, wanted to chat with a live agent. The virtual agent responded by initiating the process to connect Joshi with a live agent."
+    },
+    {
+        "ID": 18,
+        "case_details": "[15:45] virtual.agent: Hello, how can I help you today?\n[15:45] virtual.agent: What's your issue or request? Or take a look at what I can help with.\n[15:45] virtual.agent: Show me everything\n[15:45] Gabriel, Collier: Live Agent Support\n[15:45] virtual.agent: Please stand by while I connect you to a live agent.\n[15:45] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript reveals that Gabriel Collier reached out to a virtual agent for live agent support. The virtual agent promptly responded to Gabriel's request by initiating the process to connect him with a live agent."
+    },
+    {
+        "ID": 19,
+        "case_details": "[09:41] virtual.agent: Hello, how can I help you today?\n\n[09:41] virtual.agent: Start typing a question or topic below to use our Virtual Agent. Click on \"Show me everything\" to select from our HR and IT Topics and more.\n[09:41] virtual.agent: Show me everything\n[09:42] virtual.agent: Please stand by while I connect you to a live agent.\n[09:42] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript reveals an interaction between a user and a virtual agent. The user did not specify any particular issue or request. The virtual agent offered assistance and suggested the user to type a question or select a topic from the provided HR and IT topics. The virtual agent then proceeded to connect the user to a live agent for further assistance."
+    },
+    {
+        "ID": 20,
+        "case_details": "[07:48] virtual.agent: Hello, how can I help you today?\n[07:48] virtual.agent: What's your issue or request? Or take a look at what I can help with.\n[07:48] virtual.agent: See all topics\n[07:48] Weaver, Blake: Suporte do Live Agent\n[07:48] virtual.agent: Please stand by while I connect you to a live agent.\n[07:48] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows an interaction between a user, Blake Weaver, and a virtual agent. Blake Weaver requested for live agent support. The virtual agent acknowledged the request and proceeded to connect Blake to a live agent."
+    },
+    {
+        "ID": 21,
+        "case_details": "[10:10] virtual.agent: Hello, how can I help you today?\n\n[10:10] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[10:10] virtual.agent: Show me everything\n[10:10] Lisa Ross: Chat with Live Agent\n[10:10] virtual.agent: Please stand by while I connect you to a live agent.\n[10:10] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": " "
+    },
+    {
+        "ID": 22,
+        "case_details": "[10:40]Virtual Agent Bot:\n\n[10:40]Virtual Agent Bot: Could you share the case number you are working on ? (if there is none, please type in N/A )\n[10:40]Customer: resent egift\n[10:40]Virtual Agent Bot: Could you tell me what your question is? (please include details like product, KB etc)\n[10:40]Customer: Skipped\n[10:40]Virtual Agent Bot: Can you choose your LOB so that we can assign it to the correct support team\n[10:40]Customer: eComm/VC.com\n[10:40]Virtual Agent Bot: Can you type your request below, or please use the button to see everything that I may assist with.\n[10:40]Virtual Agent Bot:Show me everything\n[10:40]Customer: Live Agent support\n[10:40]Virtual Agent Bot: Please wait while I connect you to a Live agent.\n[10:40]System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The customer initiated a chat with the virtual agent bot regarding a resent e-gift. The customer did not provide a case number or specific details about the issue. The customer identified their Line of Business (LOB) as eComm/VC.com and requested to be connected to a live agent for support. The virtual agent bot then proceeded to connect the customer to a live agent."
+    },
+    {
+        "ID": 23,
+        "case_details": "[11:06] virtual.agent: Hello, how can I help you today?\n\n[11:06] virtual.agent: Start typing a question or topic below to use our Virtual Agent. Click on \"Show me everything\" to select from our HR and IT Topics and more.\n[11:06] virtual.agent: Show me everything\n[11:06] Ann, Burch: Chat with IT Live Agent\n[11:06] virtual.agent: Please stand by while I connect you to a live agent.\n[11:06] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The requestor, Ann Burch, initiated a chat with the virtual agent seeking to connect with a live IT agent. The virtual agent acknowledged the request and proceeded to connect Ann with a live IT agent."
+    },
+    {
+        "ID": 24,
+        "case_details": "[12:12] virtual.agent: Hello, how can I help you today?\n\n[12:12] virtual.agent: Start typing a question or topic below to use our Virtual Agent. Click on \"Show me everything\" to select from our HR and IT Topics and more.\n[12:12] virtual.agent: Show me everything\n[12:16] Valdez, Ali: Does Vacation time roll over to the next year?\n[12:17] virtual.agent: Select your Time System?\n[12:17] virtual.agent: Please stand by while I connect you to a live agent.\n[12:17] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The requestor, Ali Valdez, inquired if vacation time rolls over to the next year. The virtual agent asked for the specific time system used by the requestor and then proceeded to connect Ali to a live agent for further assistance."
+    },
+    {
+        "ID": 25,
+        "case_details": "[10:44] virtual.agent: Hello, how can I help you today?\n\n[10:44] virtual.agent: Start typing a question or topic below to use our Virtual Agent.  Click \"Show me everything\" for Live Agent Chat and more.\n[10:44] virtual.agent: Show me everything\n[10:44] Anthony, Maisey: Chat with Live Agent\n[10:44] virtual.agent: Please stand by while I connect you to a live agent.\n[10:44] System: Agent has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript reveals that the requestor, Anthony Maisey, wanted to chat with a live agent. The virtual agent responded by initiating the process to connect him with a live agent."
+    },
+    {
+        "ID": 26,
+        "case_details": "[08:44] Virtual Agent: Welcome to Speedcast.\n[08:44] Virtual Agent: Can you please type below the following information:\n[08:44] Virtual Agent: First and Last Name?\n[08:44] Guest: Kim Young\n[08:44] Virtual Agent: Who would you like me to get you connected with?\n[08:44] Guest: Support Agent\n[08:44] Virtual Agent: Do you have a case number for reference?\n[08:44] Guest: No\n[08:44] Virtual Agent: I can connect you to a live agent. Just a moment.\n[08:45] System: John Stuart has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "Kim Young initiated a chat with Speedcast's virtual agent, requesting to be connected with a support agent. Despite not having a case number for reference, the virtual agent was able to facilitate the connection to a live agent named John Stuart."
+    },
+    {
+        "ID": 27,
+        "case_details": "[09:56] Virtual Agent: Welcome to Speedcast.\n[09:56] Virtual Agent: Can you please type in the following information:\n[09:56] Virtual Agent: First and Last Name?\n[09:57] Guest: Stacey Wallace\n[09:57] Virtual Agent: Who would you like to be connected to today?\n[09:57] Guest: Support\n[09:57] Virtual Agent: Could you please share a case number?\n[09:57] Guest: Yes\n[09:57] Virtual Agent: You may type in the Case Number below (eg. CS0000001)\n[09:57] Guest: 987-234\n[09:57] Virtual Agent: Let me quickly connect you to a live agent.\n[09:57] System: Julia Mason has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "Stacey Wallace initiated a chat with Speedcast's virtual agent, requesting to be connected to support. Upon providing her case number 987-234, the virtual agent proceeded to connect her to a live agent, Julia Mason."
+    },
+    {
+        "ID": 28,
+        "case_details": "[11:38] Virtual Agent: Welcome to ABC IT Solutions.\n[11:38] Virtual Agent: Could you please share the following information:\n[11:38] Virtual Agent: First and Last Name?\n[11:38] Guest: Logan\n[11:38] Virtual Agent: Who would you like to be connected to today?\n[11:39] Guest: Support Agent\n[11:39] Virtual Agent: Do you have a case number for reference?\n[11:39] Guest: Nope\n[11:39] Virtual Agent: I'll connect you to a live agent shortly, just a moment.\n[11:39] System: George Warren has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows a conversation between a guest named Logan and a virtual agent from ABC IT Solutions. Logan requested to be connected to a support agent but did not provide a case number for reference. The virtual agent then proceeded to connect Logan to a live agent named George Warren."
+    },
+    {
+        "ID": 29,
+        "case_details": "[08:07] Virtual Agent: Welcome to Speedcast.\n[08:07] Virtual Agent: Please type in the following information:\n[08:07] Virtual Agent: First and Last Name?\n[08:07] Guest: Julia B\n[08:07] Virtual Agent: Who would you like to be connected to?\n[08:07] Guest: Support\n[08:07] Virtual Agent: Do you have your case number on hand?\n[08:07] Guest: Yes\n[08:07] Virtual Agent: Can you please type in the Case Number below? (eg. CS0000001)\n[08:07] Guest: ST-546907\n[08:08] Virtual Agent: Please wait, I will now connect you to a live agent.\n[08:08] System: Nina Taylor has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "Julia B initiated a chat with Speedcast's virtual agent, requesting to be connected to support. She provided her case number, ST-546907, upon request. The virtual agent then proceeded to connect her to a live agent, Nina Taylor."
+    },
+    {
+        "ID": 30,
+        "case_details": "[11:54] Virtual Agent: Welcome to Speedcast.\n[11:54] Virtual Agent: Please type in the following information below:\n[11:54] Virtual Agent: First and Last Name\n[11:54] Guest: Brian Wallace\n[11:54] Virtual Agent: Who would you like me to connect you to today?\n[11:54] Guest: Support Agent\n[11:54] Virtual Agent: Is there a case number we can use as reference?\n[11:55] Guest: Yes\n[11:55] Virtual Agent: Can you please provide the Case Number? (eg. CS0000001)\n[11:55] Guest: CS684567\n[11:55] Virtual Agent: I can connect you to a live agent. Please just a moment.\n[11:55] System: Will Menlo has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "Brian Wallace interacted with the Speedcast virtual agent to get connected with a support agent. He provided his case number CS684567 for reference. The virtual agent then proceeded to connect him to a live agent named Will Menlo."
+    },
+    {
+        "ID": 31,
+        "case_details": "[20:40] Virtual Agent: Welcome to Speedcast.\n[20:40] Virtual Agent: Please type in the following information below:\n[20:40] Virtual Agent: First and Last Name\n[20:40] Guest: Song Lee\n[20:40] Virtual Agent: Who would you like to be connected to today?\n[20:40] Guest: Support Agent\n[20:40] Virtual Agent: Any case number I can use as a reference?\n[20:40] Guest: No\n[20:40] Virtual Agent: I can connect you to a live agent. Just a moment.\n[20:40] System: Brad Wilson has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows an interaction between a guest named Song Lee and a virtual agent from Speedcast. Song Lee requested to be connected to a support agent, without providing any case number for reference. The virtual agent then proceeded to connect Song Lee to a live agent named Brad Wilson."
+    },
+    {
+        "ID": 32,
+        "case_details": "[13:18] Virtual Agent: Welcome to Speedcast.\n[13:18] Virtual Agent: Please type in the following information below:\n[13:18] Virtual Agent: First and Last Name\n[13:18] Guest: Joe Banner\n[13:18] Virtual Agent: Who would you like to be connected to?\n[13:19] Guest: Support Agent\n[13:19] Virtual Agent: Any case number I can use as reference?\n[13:19] Guest: Yes\n[13:19] Virtual Agent: Can you please type in the Case Number below? (eg. CS0000001)\n[13:19] Guest: 680342\n[13:19] Virtual Agent: Let me connect you to a live agent. Just a moment.\n[13:19] System: Jake Spencer has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows a conversation between a guest named Joe Banner and a virtual agent from Speedcast. Joe Banner requested to be connected to a support agent and provided a case number 680342 for reference. The virtual agent then proceeded to connect him to a live agent named Jake Spencer."
+    },
+    {
+        "ID": 33,
+        "case_details": "[12:45] Virtual Agent: Welcome to Speedcast.\n[12:45] Virtual Agent: Could you please type in the following information below:\n[12:45] Virtual Agent: First and Last Name?\n[12:45] Guest: John Doe\n[12:45] Virtual Agent: Who can I connect you to today?\n[12:46] Guest: Support\n[12:46] Virtual Agent: Is there an existing case number for reference?\n[12:46] Guest: Yes\n[12:46] Virtual Agent: Can you please type in the Case Number (eg. CS0000001)\n[12:46] Guest: 3047865\n[12:46] Virtual Agent: Just a moment, I will transfer you to a live agent.\n[12:46] System: Amy Chen has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "John Doe initiated a chat with Speedcast's virtual agent, requesting to be connected to support. He provided an existing case number, 3047865, for reference. The virtual agent then proceeded to transfer him to a live agent, Amy Chen."
+    },
+    {
+        "ID": 34,
+        "case_details": "[05:11] Virtual Agent: Welcome to Cisco.\n[05:11] Virtual Agent: Will you be able to provide the below details:\n[05:11] Virtual Agent: What is your First and Last Name?\n[05:11] Guest: Nilima Shah\n[05:11] Virtual Agent: You would like to connect to?\n[05:11] Guest: Support\n[05:11] Virtual Agent: I am happy to proceed to\n[05:11] Guest: Connect to Technical Support\n[05:11] Virtual Agent: Will you be able to provide a case number for reference?\n[05:12] Guest: I will be able to.\n[05:12] Virtual Agent: Go ahead and send me the Case Number (eg. CS0000003)\n[05:12] Guest: #456567\n[05:12] Virtual Agent: I will now connect you to a live agent. Please wait while I do so.\n[05:12] System: Arun Kumar has joined the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows a conversation between a guest, Nilima Shah, and a virtual agent from Cisco. Nilima requested to be connected to technical support and provided a case number (#456567) for reference. The virtual agent confirmed the details and proceeded to connect Nilima to a live agent, Arun Kumar."
+    },
+    {
+        "ID": 35,
+        "case_details": "[14:11] Virtual Agent: Welcome to Cisco.\n[14:11] Virtual Agent: Will you be able to provide the below details:\n[14:11] Virtual Agent: What is your First and Last Name?\n[14:12] Guest: Naomi Shah\n[14:12] Virtual Agent: You would like to connect to?\n[14:13] Guest: Support\n[14:13] Virtual Agent: I am happy to proceed to\n[14:13] Guest: Connect with Audit Support\n[14:13] Virtual Agent: Will you be able to provide a case number for reference?\n[14:13] Guest: Nope\n[14:13] Virtual Agent: I will now connect you to a live agent. Please wait while I do so.\n[14:13] System: Victor Dave has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript is a conversation between a guest, Naomi Shah, and a virtual agent at Cisco. Naomi requested to be connected with Audit Support but did not provide a case number for reference. The virtual agent then proceeded to connect her to a live agent, Victor Dave."
+    },
+    {
+        "ID": 36,
+        "case_details": "[05:11] Virtual Agent: Welcome to Cisco.\n[05:11] Virtual Agent: Will you be able to provide the below details:\n[05:11] Virtual Agent: What is your First and Last Name?\n[05:15] Guest: Rekha testing for Support\n[05:15] Virtual Agent: You would like to connect to?\n[05:15] Guest: Support\n[05:15] Virtual Agent: I am happy to proceed to\n[05:15] Guest: Connect with Technical Support\n[05:15] Virtual Agent: Will you be able to provide a case number for reference?\n[05:15] Guest: Nope\n[05:15] Virtual Agent: I will now connect you to a live agent. Please wait while I do so.\n[05:15] System: Arun Kumar has joined the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows a conversation between a guest named Rekha and a virtual agent from Cisco. Rekha is seeking technical support but does not provide a case number for reference. The virtual agent then proceeds to connect Rekha to a live agent named Arun Kumar for further assistance."
+    },
+    {
+        "ID": 37,
+        "case_details": "[05:11] Virtual Agent: Welcome to Cisco.\n[05:11] Virtual Agent: Will you be able to provide the below details:\n[05:11] Virtual Agent: What is your First and Last Name?\n[05:11] Guest: Pulkit Sharma\n[05:11] Virtual Agent: You would like to connect to?\n[05:11] Guest: Support\n[05:11] Virtual Agent: Will you be able to provide a case number for reference?\n[05:11] Guest: Nope\n[05:11] Virtual Agent: I will now connect you to a live agent. Please wait while I do so.\n[05:11] System: Arun Kumar has joined the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript involves a conversation between a guest named Pulkit Sharma and a virtual agent from Cisco. Pulkit Sharma wishes to connect with the support team but does not provide a case number for reference. The virtual agent then proceeds to connect him to a live agent named Arun Kumar."
+    },
+    {
+        "ID": 38,
+        "case_details": "[09:52] Virtual AgentBot: Welcome to Tucows.\n[09:52] Virtual AgentBot: Could you please provide the following information:\n[09:52] Virtual AgentBot: Your First and Last Name please?\n[09:52] Guest: John Doe\n[09:52] Virtual AgentBot: who you like to connect to?\n[09:52] Guest: Support\n[09:52] Virtual AgentBot: What you would like to do?\n[09:52] Guest: I would like to Chat with Technical Support\n[09:52] Virtual AgentBot: If you have the case number then Could you please share for reference?\n[09:53] Guest: No, i don't have it\n[09:53] Virtual AgentBot: Please stand by while I connect you to a live agent.\n[09:53] System: Beth Anglin has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows a conversation between a guest, John Doe, and a virtual agent at Tucows. John Doe wishes to connect with the technical support team but does not have a case number for reference. The virtual agent proceeds to connect him to a live agent, Beth Anglin."
+    },
+    {
+        "ID": 39,
+        "case_details": "[09:21] Virtual Agent Bot: Welcome to WTs.\n[09:21] Virtual Agent Bot: Can you please provide the following data:\n[09:21] Virtual Agent Bot: Your First Name and Last Name?\n[09:21] John Doe: Jane Doe\n[09:21] Virtual Agent Bot: Would you like to connect?\n[09:21] John Doe: Support Please\n[09:21] Virtual Agent Bot: You would like to\n[09:21] John Doe: Chat with Technical Support please\n[09:21] Virtual Agent Bot: Do you please have a case number for reference?\n[09:21] John Doe: No I don't\n[09:21] Virtual Agent Bot: Please stand by while I connect you to a live agent shortly.\n[09:22] System: George Warren has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows a conversation between a user, John Doe, and a virtual agent bot from WTs. John Doe requests to chat with technical support but does not have a case number for reference. The virtual agent bot then proceeds to connect John Doe to a live agent named George Warren."
+    },
+    {
+        "ID": 40,
+        "case_details": "[11:55] Virtual Agent Bot: Welcome to Whx.\n[11:55] Virtual Agent Bot: Can you please provide the following information:\n[11:55] Virtual Agent Bot: Your First Name and Last Name?\n[11:55] Live Agent: Jane Doe\n[11:55] Virtual Agent Bot: Would you like to connect?\n[11:55] Live Agent: Support please\n[11:55] Virtual Agent Bot: You would opt to\n[11:55] Live Agent: Make a change to your account\n[11:55] Virtual Agent Bot: Do you have a case number for reference purpose?\n[11:55] Live Agent: No, I don't have it\n[11:55] Virtual Agent Bot: Please stand by a while I connect you to a live agent now shortly.\n[11:56] System: George Warren has entered the chat now.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows a conversation between a live agent named Jane Doe and a virtual agent bot from Whx. Jane Doe requested support to make changes to her account. She did not have a case number for reference. The virtual agent bot then proceeded to connect her to another live agent named George Warren for further assistance."
+    },
+    {
+        "ID": 41,
+        "case_details": "[08:54] Virtual AgentBot: Welcome to Tucows.\n[08:54] Virtual AgentBot: Can you please help provide me the following information:\n[08:54] Virtual AgentBot: Your First and Last Name please?\n[08:54] Guest: John Doe\n[08:54] Virtual AgentBot: who Would you like to connect to?\n[08:54] Guest: would like to connect to Support\n[08:54] Virtual AgentBot: And what would you like to?\n[08:54] Guest: would like to Chat with Technical Support\n[08:54] Virtual AgentBot: in case if you have case number then could you please provide for reference?\n[08:54] Guest: sure\n[08:54] Virtual AgentBot: Please provide the Case Number something like (eg. PD93773883)\n[08:54] Guest: 47837483\n[08:54] Virtual AgentBot: Please stand by while I connect you to a live agent.\n[08:54] System: Beth Anglin has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows a conversation between a guest named John Doe and a virtual agent at Tucows. John Doe wishes to connect with the technical support team and provides a case number, 47837483, for reference. The virtual agent then proceeds to connect him to a live agent named Beth Anglin."
+    },
+    {
+        "ID": 42,
+        "case_details": "[11:54] System: Welcome to Traveller Xpartner\n[11:54] System: Can you please provide the following information:\n[11:54] System: Your First and Last Name?\n[11:55] Guest: Paul walsh\n[11:55] System: Would you like to connect to?\n[11:55] Guest: Support\n[11:55] System: You would like to\n[11:55] Guest: Chat with Technical Support\n[11:55] System: Do you have a case number for reference?\n[11:55] Guest: Yes\n[11:55] System: Could you please provide the Case Number (eg. PD8743874)\n[11:55] Guest: PD-4839838\n[11:55] System: Please stand by while I connect you to a live agent.\n[11:55] System: Beth Anglin has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "Paul Walsh initiated a chat with Traveller Xpartner's technical support. He provided his name and confirmed he had a case number for reference, which is PD-4839838. The system then proceeded to connect him to a live agent, Beth Anglin."
+    },
+    {
+        "ID": 43,
+        "case_details": "[16:27] System: Welcome to Travellers xpartner\n[16:27] System: Can you please provide the following information:\n[16:27] System: Your First and Last Name?\n[16:27] Guest: Emy chao\n[16:27] System: Would you like to connect to?\n[16:28] Guest: Support\n[16:28] System: You would like to\n[16:28] Guest: Chat with Billing Support\n[16:28] System: Do you have a case number for reference?\n[16:28] Guest: No\n[16:28] System: Please stand by while I connect you to a live agent.\n[16:28] System: Beth Anglin has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "Emy Chao initiated a chat with Travellers xpartner's virtual agent, seeking to connect with Billing Support. She did not have a case number for reference. The system proceeded to connect her to a live agent, Beth Anglin."
+    },
+    {
+        "ID": 44,
+        "case_details": "13:35] Virtual Agent Bot: Welcome to Magna5.\n[13:35] Virtual Agent Bot: Can you please provide the following instruction:\n[13:35] Virtual Agent Bot: Your First Name and Last Name?\n[13:35] Guest: Jane Doe\n[13:35] Virtual Agent Bot: Would you like to Join to?\n[13:35] Guest: Help\n[13:35] Virtual Agent Bot: You would want to\n[13:36] Guest: Chat with Technical Help\n[13:36] Virtual Agent Bot: Do you have a case number for identification?\n[13:36] Guest: I do\n[13:36] Virtual Agent Bot: Please provide the Case Number (eg. CS0000003)\n[13:36] Guest: 1239910 Searching for final date\n[13:36] Virtual Agent Bot: Please wait by while I transfer you to a live chat agent.\n[13:36] System: George Warren has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript is a conversation between a guest, Jane Doe, and a virtual agent at Magna5. Jane Doe requested technical help and provided her case number, 1239910, for identification. The virtual agent then proceeded to transfer her to a live chat agent, George Warren, for further assistance."
+    },
+    {
+        "ID": 45,
+        "case_details": "[05:58] Virtual Agent Bot: Welcome to Magna5.\n[05:58] Virtual Agent Bot: Can you please provide the following information:\n[05:58] Virtual Agent Bot: Your First Name and Last Name?\n[05:59] Guest: George Warren\n[05:59] Virtual Agent Bot: Would you like to connect to?\n[05:59] Guest: Support\n[05:59] Virtual Agent Bot: You would like to\n[05:59] Guest: Chat with Technical Support\n[05:59] Virtual Agent Bot: Do you hold a case number for reference?\n[05:59] Guest: I do\n[05:59] Virtual Agent Bot: Please enter the Case Number (eg. CS0000009)\n[05:59] Guest: CS0167213\n[05:59] Virtual Agent Bot: Please stand by while I connect you to a live agent.\n[05:59] System: Jane Doe has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "George Warren initiated a chat with Magna5's virtual agent, seeking to connect with Technical Support. He provided a case number, CS0167213, for reference. The virtual agent then proceeded to connect him with a live agent, Jane Doe."
+    },
+    {
+        "ID": 46,
+        "case_details": "[15:37] Virtual Agent Bot: Welcome to Magna5.\n[15:37] Virtual Agent Bot: Can you please enter the given information:\n[15:37] Virtual Agent Bot: Enter your First name and Last name?\n[15:37] Guest: Jane Doe\n[15:37] Virtual Agent Bot: Whom would you like to connect to?\n[15:38] Guest: Connect Support\n[15:38] Virtual Agent Bot: You want to\n[15:38] Guest: Chat with the Technical Support\n[15:38] Virtual Agent Bot: Do you have a case number for our reference?\n[15:38] Guest: Nope\n[15:38] Virtual Agent Bot: Please stand by a while for sometime till I connect you to a live agent.\n[15:38] System: George Warren has entered the current chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows a conversation between a guest, Jane Doe, and a virtual agent at Magna5. Jane Doe requests to be connected with the Technical Support team but does not provide a case number for reference. The virtual agent then proceeds to connect her to a live agent, George Warren."
+    },
+    {
+        "ID": 47,
+        "case_details": "[09:44] Virtual Agent Bot: Welcome to Magna5.\n[09:44] Virtual Agent Bot: Can you excatly provide the following information:\n[09:44] Virtual Agent Bot: Your First Nmae and Last Name?\n[09:44] Guest: Jane Doe\n[09:44] Virtual Agent Bot: Who would you like to join to?\n[09:45] Guest: Support\n[09:45] Virtual Agent Bot: You would like to\n[09:45] Guest: Chat with Technical Support\n[09:45] Virtual Agent Bot: Do you have a case number for our reference?\n[09:45] Guest: No\n[09:45] Virtual Agent Bot: Please stand by while I shortly connect you to a live agent.\n[09:45] System: George Warren has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows a conversation between a guest, Jane Doe, and a virtual agent at Magna5. Jane Doe wishes to connect with the technical support team but does not have a case number for reference. The virtual agent then proceeds to connect her to a live agent, George Warren."
+    },
+    {
+        "ID": 48,
+        "case_details": "[11:55] Virtual Agent Bot: Welcome to Whx.\n[11:55] Virtual Agent Bot: Can you please provide the following information:\n[11:55] Virtual Agent Bot: Your First Name and Last Name?\n[11:55] Live Agent: Jane Doe\n[11:55] Virtual Agent Bot: Would you like to connect?\n[11:55] Live Agent: Support please\n[11:55] Virtual Agent Bot: You would opt to\n[11:55] Live Agent: Make a change to your account\n[11:55] Virtual Agent Bot: Do you have a case number for reference purpose?\n[11:55] Live Agent: No, I don't have it\n[11:55] Virtual Agent Bot: Please stand by a while I connect you to a live agent now shortly.\n[11:56] System: George Warren has entered the chat now.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "The chat transcript shows an interaction between a user, Jane Doe, and a virtual agent from Whx. Jane Doe requested support to make changes to her account. She did not have a case number for reference. The virtual agent then proceeded to connect her to a live agent, George Warren."
+    },
+    {
+        "ID": 49,
+        "case_details": "[11:30] Virtual Agent Bot: Welcome to WTs.\n[11:30] Virtual Agent Bot: Can you please enter the following information:\n[11:30] Virtual Agent Bot: Your First and Last Name?\n[11:31] Live Agent: George Warren\n[11:31] Virtual Agent Bot: Whom would you like to connect to?\n[11:31] Live Agent: Support please\n[11:31] Virtual Agent Bot: You would like to \n[11:31] Live Agent: Chat Billing Support\n[11:31] Virtual Agent Bot: Do you have a case number for reference search?\n[11:31] Live Agent: No\n[11:31] Virtual Agent Bot: Please stand by a while I connect you to a live agent.\n[11:31] System: Jane Doe has entered the chat.",
+        "chat_type": "wrap up",
+        "targets_pretokenized": "George Warren interacted with a virtual agent at WTs, requesting to be connected to the billing support department. He did not have a case number for reference. The virtual agent then proceeded to connect him to a live agent named Jane Doe."
+    }
+]
