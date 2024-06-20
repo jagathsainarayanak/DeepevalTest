@@ -54,4 +54,4 @@ def search_qa_report(results):
         output['reason'] = result.metrics[0].reason
         outputs.append(output)
     df = pd.DataFrame(outputs)
-    df.to_excel("output/search_qa_record_level_metrics.xlsx")
+    df.to_excel("/Users/jagathsa.kakaraparty/Documents/GitHub/DeepevalTest/output/search_qa_record_level_metrics.xlsx")

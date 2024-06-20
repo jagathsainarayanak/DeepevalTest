@@ -156,7 +156,7 @@ class TestRunCacheManager:
         if to_temp:
             try:
                 with portalocker.Lock(
-                    self.temp_cache_file_name, mode="w", timeout=5
+                    self.temp_cache_file_name, mode="w"
                 ) as file:
                     self.temp_cached_test_run = self.temp_cached_test_run.save(
                         file
@@ -168,9 +168,7 @@ class TestRunCacheManager:
                 )
         else:
             try:
-                with portalocker.Lock(
-                    self.cache_file_name, mode="w", timeout=5
-                ) as file:
+                with portalocker.Lock(self.cache_file_name, mode="w") as file:
                     self.cached_test_run = self.cached_test_run.save(file)
             except Exception as e:
                 print(
@@ -204,7 +202,6 @@ class TestRunCacheManager:
                 with portalocker.Lock(
                     self.temp_cache_file_name,
                     mode="r",
-                    timeout=5,
                     flags=portalocker.LOCK_SH | portalocker.LOCK_NB,
                 ) as file:
                     content = file.read().strip()
@@ -231,7 +228,6 @@ class TestRunCacheManager:
                 with portalocker.Lock(
                     self.cache_file_name,
                     mode="r",
-                    timeout=5,
                     flags=portalocker.LOCK_SH | portalocker.LOCK_NB,
                 ) as file:
                     content = file.read().strip()
@@ -261,9 +257,7 @@ class TestRunCacheManager:
 
         self.get_cached_test_run(from_temp=True)
         try:
-            with portalocker.Lock(
-                self.cache_file_name, mode="w", timeout=5
-            ) as file:
+            with portalocker.Lock(self.cache_file_name, mode="w") as file:
                 self.temp_cached_test_run = self.temp_cached_test_run.save(file)
         except Exception as e:
             print(

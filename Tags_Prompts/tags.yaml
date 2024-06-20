@@ -1,0 +1,3 @@
+nowllm: "<|system|>\n{system_prompt}\n<|end|>\n<|user|>\n{case_details}\n{user_prompt}\n<|end|>\n<|assistant|>\n"
+
+nowllm_search: "<|system|>\n{system_prompt}\n<|end|>\n<|user|>\n{user_prompt}\n<|end|>\n<|assistant|>\n"

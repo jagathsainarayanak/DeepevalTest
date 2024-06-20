@@ -1,41 +1,49 @@
 import pandas as pd
+import yaml
+from yaml import Loader
+from yaml.loader import SafeLoader
 
-def load_case_summarization_data(file_path, system_prompt, user_prompt):
-    df = pd.read_json(file_path)
-    data = []
-    for i in range(len(df)):
-        case_prompt = f"""<|system|>\n{system_prompt}\n<|end|>\n<|user|>\n{df.iloc[i]['case_details']}\n{user_prompt}\n<|end|>\n<|assistant|>\n"""
-        case_data = {}
-        case_data["prompt"] = case_prompt
-        case_data["case_detail"] = df.iloc[i]["case_details"]
-        data.append(case_data)
-    return data
+class PromptBuilder:
+    def create_summary(self, dataset, case_details):
+            instruction = self.get_instruction(dataset)
+            tags = self.get_tags('nowllm')
+            return tags.format(system_prompt = instruction['system'], user_prompt = instruction['user'], case_details= case_details)
 
-def load_chat_summarization_data(file_path, system_prompt, user_prompt):
-    df = pd.read_json(file_path)
-    data = []
-    for i in range(len(df)):
-        new_user_prompt = user_prompt[:]
-        new_user_prompt = new_user_prompt.replace("\{case_details\}", df.iloc[i]['case_details'])
-        case_prompt = f"""<|system|>\n{system_prompt}\n<|end|>\n<|user|>\n{user_prompt}\n<|end|>\n<|assistant|>\n"""
-        case_data = {}
-        case_data["prompt"] = case_prompt
-        case_data["case_detail"] = df.iloc[i]["case_details"]
-        data.append(case_data)
-    return data
+    def create_search(self, dataset, context, query):
+            instruction = self.get_instruction(dataset)
+            if dataset == 'search_qa':
+                tags = self.get_tags('nowllm_search')
+            else:
+                tags = self.get_tags('nowllm')
+            return tags.format(system_prompt = instruction['system'], user_prompt = instruction['user'].format(CONTEXT=context, QUERY=query))
 
-def load_search_qa_data(file_path, system_prompt, user_prompt):
-    df = pd.read_json(file_path)
-    data_records = []
-    for i in range(len(df)):
-        new_user_prompt = user_prompt[:]
-        new_user_prompt = new_user_prompt.replace('\{CONTEXT\}', df.iloc[i]['CONTEXT'])
-        new_user_prompt = new_user_prompt.replace('\{QUERY\}', df.iloc[i]['QUERY'])
-        input_prompt = f"""<|system|>\n{system_prompt}\n<|end|>\n<|user|>\n{user_prompt}\n<|end|>\n<|assistant|>\n"""
-        data_record = {}
-        data_record['prompt'] = input_prompt
-        data_record['ground_truth'] = df.iloc[i]['GROUND_TRUTH']
-        data_record['query'] = df.iloc[i]['QUERY']
-        data_record['context'] = df.iloc[i]['CONTEXT']
-        data_records.append(data_record)
-    return data_records
+    def get_tags(self, model):
+        with open('/Users/jagathsa.kakaraparty/Documents/GitHub/DeepevalTest/Tags_Prompts/tags.yaml','r') as file:
+            tag = yaml.load(file, Loader)
+        return tag[model]
+        
+    def get_instruction(self,dataset):
+        with open("/Users/jagathsa.kakaraparty/Documents/GitHub/DeepevalTest/Tags_Prompts/prompts.yaml",'r') as file:
+            values = yaml.load(file,Loader=SafeLoader)
+        return values[dataset]
+
+    def load_case_summarization_data(self):
+        df = pd.read_json("/Users/jagathsa.kakaraparty/Documents/GitHub/DeepevalTest/data/servicenow_data/latest_case_data.json")
+        data = []
+        for i in range(len(df)):
+            data.append({"prompt": self.create_summary('case_summarization', df.iloc[i]['case_details']), 'case_details': df.iloc[i]["case_details"]})
+        return data
+
+    def load_chat_summarization_data(self):
+        df = pd.read_json("/Users/jagathsa.kakaraparty/Documents/GitHub/DeepevalTest/data/servicenow_data/latest_chat_data.json")
+        data = []
+        for i in range(len(df)):
+            data.append({"prompt": self.create_summary('chat_summarization', df.iloc[i]["case_details"]), 'case_details': df.iloc[i]["case_details"]})
+        return data
+
+    def load_search_qa_data(self):
+        df = pd.read_json('/Users/jagathsa.kakaraparty/Documents/GitHub/DeepevalTest/data/servicenow_data/search_qa.json')
+        data_records = []
+        for i in range(len(df)):
+            data_records.append({'prompt':self.create_search('search_qa',df.iloc[i]['CONTEXT'], df.iloc[i]['QUERY']),'ground_truth':df.iloc[i]['GROUND_TRUTH'],'query':df.iloc[i]['QUERY'],'context':df.iloc[i]['CONTEXT'] })
+        return data_records
