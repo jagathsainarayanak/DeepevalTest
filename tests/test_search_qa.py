@@ -16,7 +16,7 @@ def test_search_qa():
     system_prompt = Prompts.SEARCH_QA_SYSTEM_PROMPT
     user_prompt = Prompts.SEARCH_QA_USER_PROMPT
     logger.info('Started loading search qa dataset')
-    data = load_search_qa_data(file_path='data/servicenow_data/search_qa.json',
+    data = load_search_qa_data(file_path='data/servicenow_data/search_qa_with_kb_context.json',
                                system_prompt=system_prompt,
                                user_prompt=user_prompt)
     logger.info('Completed loading chat summarization data')
